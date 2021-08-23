@@ -1,0 +1,43 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bolder;
+}
+
+.wrap {
+    text-align: center;
+
+    margin: 1rem 25rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: yellow;
+    text-align: center;
+    padding: 4rem;
+    margin: 0 18rem;
+
+}
+
+h3 {
+   margin: 2rem 0 0rem 30rem; 
+}
+
+p {
+   margin: 1rem 0 0 30rem; 
+}
+
+input {
+    width: 28%;
+    height: 4vh;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+
+input:focus {
+    border-style: none;
+    border: 1px solid lightskyblue;
+}
+
+.inputs {
+margin: 10px 0px;
+}
