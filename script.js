@@ -96,4 +96,13 @@ function doModule() {
 
 moduleAObj.addEventListener("input", doModule);
 moduleBObj.addEventListener("input", doModule);
+
+
+
+//-=^.^-=---to clear the input text when refresh the page-----=^.^-=----
+
+function init() {
+  document.querySelectorAll("input").forEach((elem) => elem.value  = "");
+}
+window.onload = init;
  
